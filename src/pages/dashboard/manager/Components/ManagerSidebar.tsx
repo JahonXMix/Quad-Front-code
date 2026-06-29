@@ -43,16 +43,6 @@ function ManagerSidebar() {
               Buyurtmalar
             </NavLink>
 
-            {/* 3. Menyu (Sizda ishlab turgan tugma) */}
-            <NavLink
-              to="/manager/create-menu"
-              className={({ isActive }) =>
-                `flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium transition-all ${isActive ? "bg-[#00df9a] text-black font-bold" : "text-slate-400 hover:bg-slate-800/50"}`
-              }
-            >
-              Menyu
-            </NavLink>
-
             {/* 4. Mentorlar yozuvi o'rniga Kategoriyalar oynasini ochadigan havolasi */}
             <NavLink
               to="/manager/category"
