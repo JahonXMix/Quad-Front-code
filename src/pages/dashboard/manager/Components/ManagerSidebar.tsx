@@ -83,9 +83,6 @@ const ManagerSidebar: React.FC = () => {
               <span>Buyurtmalar</span>
             </NavLink>
 
-<<<<<<< HEAD
-            {/* 4. Mentorlar yozuvi o'rniga Kategoriyalar oynasini ochadigan havolasi */}
-=======
             {/* 3. Menyu */}
             <NavLink
               to="/manager/create-menu"
@@ -102,7 +99,6 @@ const ManagerSidebar: React.FC = () => {
             </NavLink>
 
             {/* 4. Kategoriyalar */}
->>>>>>> 5ffa2760d4002b21f74a7d9c8781dc684f211d8c
             <NavLink
               to="/manager/category"
               className={({ isActive }) =>
